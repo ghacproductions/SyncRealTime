@@ -1,0 +1,14 @@
+name: SyncRealTime
+version: 1.1
+main: de.ghac.realtime.RealTime
+author: ghac
+website: www.ghac.bplaced.net
+commands:
+  realtime:
+    description: 'Main Command'
+    usage: /<command>
+  permissions:
+   realtime.force:
+     description: Force realtime to sync the time
+     default: false
+     
